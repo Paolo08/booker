@@ -1,0 +1,53 @@
+{
+    "resources": {
+        "buildings": [
+            {
+                "id": "CampX",
+                "sections": [
+                    {
+                        "id": "Yellow",
+                        "vehicles": [
+                            "002"
+                        ]
+                    },
+                    {
+                        "id": "Green",
+                        "sections": [
+                            {
+                                "id": "Blue",
+                                "vehicles": [
+                                    "004",
+                                    "005"
+                                ]
+                            }
+                        ],
+                        "vehicles": [
+                            "002",
+                            "003"
+                        ]
+                    }
+                ],
+                "vehicles": [
+                    "001"
+                ]
+            },
+            {
+                "id": "CampY",
+                "sections": [
+                    {
+                        "id": "Purple",
+                        "vehicles": [
+                            "006"
+                        ]
+                    },
+                    {
+                        "id": "Red"
+                    }
+                ]
+            },
+            {
+                "id": "CampZ"
+            }
+        ]
+    }
+}

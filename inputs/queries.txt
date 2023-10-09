@@ -1,0 +1,39 @@
+# Alpha
+book CampY 2026/01/01
+is_booked CampY 2026/01/01
+book 006 2026/01/02
+book 006 2026/01/01
+
+# Bravo
+book CampZ 2028/01/01
+
+# Charlie
+is_available Yellow 2027/01/01
+book 002 2027/01/01
+is_available Yellow 2027/01/01
+book 003 2027/01/01
+book Yellow 2027/01/01
+book Blue 2027/01/01
+is_booked CampX 2027/01/01
+book CampX 2027/01/01
+book 001 2027/01/01
+
+# Delta
+is_available Blue 2025/01/01            # yes
+book Blue 2025/01/01                    # ok
+is_available Blue 2025/01/01            # no
+is_booked Blue 2025/01/02               # no
+book 004 2025/01/01                     # failed
+book CampX 2025/01/01                   # failed
+is_available Green 2025/01/01           # no
+is_available Yellow 2025/01/01          # yes
+book 002 2025/01/02                     # ok
+book Yellow 2025/01/02                  # failed
+
+# Echo
+is_booked CampX 2025/01/01              # no
+is_all_booked CampX 2025/01/01          # yes
+is_booked CampY 2026/01/01              # yes
+is_all_booked CampY 2026/01/01          # yes
+is_all_booked Purple 2026/01/02         # yes
+is_booked Red 2026/01/01                # yes
